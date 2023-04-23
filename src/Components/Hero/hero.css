@@ -1,0 +1,126 @@
+.home {
+    position: relative;
+    overflow: hidden;
+}
+
+.home .container {
+    padding: 42px 0
+}
+
+.home:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    display: block;
+    background: #6E6BFE;
+    box-shadow: 0 0 1000px 350px #6E6BFE;
+    z-index: -1;
+    right: 0;
+    top: 100%;
+    transform: translate(-80%, -80%);
+    opacity: .5
+}
+
+.home:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    display: block;
+    background: #1BA94C;
+    box-shadow: 0 0 1000px 350px #1BA94C;
+    z-index: -1;
+    left: 0;
+    top: 100%;
+    transform: translate(80%, -80%);
+    opacity: .3
+}
+
+.home h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    color: #1F1F20;
+    font-weight: bold;
+    text-align: center
+}
+
+.home p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 32px auto 0px;
+    color: #39424E;
+    text-align: center
+}
+
+.py {
+    margin: 60px auto 0px !important;
+}
+
+.home p:first-child {
+    font-size: 18px;
+    max-width: 620px;
+    font-weight: 300
+}
+
+.home img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.home .logo {
+    text-align: center;
+    margin-top: 24px
+}
+
+@media (min-width: 1024px) {
+    .home .container {
+        padding: 60px 0
+    }
+    .home h1 {
+        font-size: 64px;
+        font-weight: 900;
+        max-width: 780px;
+        margin: 0 auto
+    }
+    .home p {
+        font-size: 18px
+    }
+    .home a {
+        margin-bottom: 32px
+    }
+}
+
+.home a:first-child {
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #068932;
+    background: #068932;
+    margin-top: 0
+}
+
+.home a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #39424E;
+    font-weight: 600;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    line-height: 25px;
+    padding: 10px 16px;
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    margin: 8px 0 0;
+    min-width: 155px
+}
+
+@media (min-width: 480px) {
+    .home a {
+        margin: 0 10px 0;
+        width: auto
+    }
+}

@@ -1,0 +1,124 @@
+section {
+    background-color: #ffffff;
+    padding: 3rem 0rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+  }
+  
+  .container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .home-hiring-content h2 span {
+    display: block;
+    text-align: center;
+  }
+  .home-hiring-content span {
+    color: #068932;
+    font-size: 3.8rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem 0rem;
+  }
+  .home-hiring-content h2 {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .home-hiring-text p{
+    font-size: 2rem;
+  }
+
+  .dis-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-hiring-nav {
+    bottom: 48px;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .home-hiring-nav a {
+    margin: 24px 24px 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+  }
+
+  .label{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+
+  
+  .home-community-content {
+    border: 2px solid #068932;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .nav-container {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
+  
+  .home-community-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .home-community-image img {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .home-community-content .row-container {
+    margin: 20px;
+  }
+  .home-community-title{
+    padding: 1.5rem 0rem;
+  }
+  
+  .home-community-title p a {
+    text-decoration: none;
+    /* color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 1.5rem; */
+  }
+
+  .home-community-title p a button{
+    margin-top: 2rem;
+    padding: 1.35rem 3rem;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 2s linear;
+  }
+
+  .home-community-title p a button:hover{
+    background-color: #068932;
+    border: none;
+  }
+
+
+
+

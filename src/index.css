@@ -1,0 +1,15 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+:root{
+  --color-green : #32c766;
+  --color-black : #101010;
+}
+
